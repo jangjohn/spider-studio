@@ -77,7 +77,7 @@ npm run tauri build
 
 ## Screenshots
 
-_Placeholder — add screenshots of the app here._
+![Spider Studio — Hacker News scrape with Data Preview](screenshots/main.png)
 
 ## License
 

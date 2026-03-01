@@ -36,13 +36,27 @@ A desktop web scraping app built with Tauri 2.0 + React + Python.
 - **Rust** (for Tauri)
 - **Python 3.8+**
 
-### Installation
+### Running the installed app (Windows)
+
+After installing Spider Studio via the `.msi` or `.exe` installer, you must have **Python** and **Playwright** set up for scraping and browser preview to work:
+
+```bash
+# Install Python dependencies (required for scraping)
+pip install playwright pandas openpyxl
+
+# Install Chromium browser (required for browser preview and scraping)
+playwright install chromium
+```
+
+Ensure `python` is available on your system PATH.
+
+### Development setup
 
 ```bash
 # Install frontend dependencies
 npm install
 
-# Install Python dependencies
+# Install Python dependencies (required for scraping)
 pip install playwright pandas openpyxl
 
 # Install Playwright browser

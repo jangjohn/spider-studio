@@ -31,6 +31,10 @@ venv/
 # Database
 *.db
 
+# Scraped output and test configs
+*.csv
+test_config*.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

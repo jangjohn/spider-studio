@@ -1,0 +1,1 @@
+{"url":"https://news.ycombinator.com","method":"GET","fields":[{"id":"1","name":"title","selector":".titleline > a","dataType":"Text","cleaningRule":"None"}],"pagination":{"mode":"auto","maxPages":3},"run_settings":{"delay_between_requests":1,"retry_on_failure":3}}
